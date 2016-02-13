@@ -58,9 +58,9 @@ public class Performance {
         }
         
         public void play(){
-            midiChannel.noteOn (this.note, 20);
+            midiChannel.noteOn (this.note, 60);
             delay( 1000 );
-            midiChannel.noteOff(this.note, 20);
+            midiChannel.noteOff(this.note, 60);
         }
     }
     
